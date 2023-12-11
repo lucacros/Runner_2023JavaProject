@@ -1,4 +1,4 @@
-public class Camera {
+public class Camera{
     private int x;
     private int y;
 
@@ -18,6 +18,7 @@ public class Camera {
         this.y=Y;
     }
 
+    
     @Override
     public String toString(){
         return "("+this.x+","+this.y+")";
